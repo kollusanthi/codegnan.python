@@ -68,6 +68,36 @@ eg--
 any_=[1,'python',[2,4]]
 print(any_[1][2])
 
+methods
+------
+append() --> this method is used to add new item into the list and it will add at last index position
+eg--
+any_=[1,2,3,4,5]
+any_.append(10)
+print(any_)
+any_.append("python")
+print(any_)
+
+extend() --> it is used to add new item into the end of the list
+eg--
+any_=[1,2,3,4,5]
+any_.extend("python")
+print(any_)
+any_.append("python")
+print(any_)
+
+remove() --> the remove will delete the item based on the value given...
+if the value is not in the list will the error
+eg--
+any_=[1,2,3,4,5]
+any_.remove(2)
+print(any_)
+
+pop() -->the pop will delete the item based on the index position given...
+if the indexx position is out of range in the list will the error
+eg--
+any_=[1,2,3,4,5]
+any_.pop(2)
+print(any_)
+print(any_.pop())
 '''
-any_=[1,'python',[2,['python',9],4],'java',['python',[56,78],'java',90]]
-print(any_[4])
